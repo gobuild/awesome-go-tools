@@ -4,14 +4,39 @@ A curated list of awesome Go tools. Inspired by [awesome-go](https://github.com/
 ## Contributing
 Please take a quick gander at the [contribution guidelines](CONTRIBUTE.md) first. Thanks to all contributors
 
-## If you see a package or project here that is no longer maintained or is not a good fit, please submit a pull request to improve this file. Thank you!
+### If you see a package or project here that is no longer maintained or is not a good fit, please submit a pull request to improve this file. Thank you!
 
 ### Go Compile Helper
-* [godep](https://github.com/tools/godep) - Dependency tool for go
+*Libraries for package and dependency management.*
+
 * [colorgo](https://github.com/songgao/colorgo) - A wrapper around `go` command for colorized `go build` output.
+* [gigo](https://github.com/LyricalSecurity/gigo) - PIP-like dependency tool for golang, with support for private repositories and hashes.
+* [godep](https://github.com/tools/godep) - dependency tool for go, godep helps build packages reproducibly by fixing their dependencies.
+* [gom](https://github.com/mattn/gom) - Go Manager - bundle for go.
+* [goop](https://github.com/nitrous-io/goop) - A simple dependency manager for Go (golang), inspired by Bundler.
+* [gopm](https://github.com/gpmgo/gopm) - Go Package Manager
+* [gpm](https://github.com/pote/gpm) - Barebones dependency manager for Go.
+* [johnny-deps](https://github.com/VividCortex/johnny-deps) - Minimal dependency version using Git
+* [nut](https://github.com/jingweno/nut) - Vendor Go dependencies
+* [panicparse](https://github.com/maruel/panicparse) - Groups similar goroutines and colorizes stack dump.
+* [VenGO](https://github.com/DamnWidget/VenGO) - create and manage exportable isolated go virtual environments
+
+## Server Applications
+
+* [algernon](https://github.com/xyproto/algernon) - HTTP/2 web server with built-in support for Lua, Markdown, GCSS and Amber.
+* [Caddy](https://github.com/mholt/caddy) - Caddy is an alternative, HTTP/2 web server that's easy to configure and use.
+* [consul](https://www.consul.io/) - Consul is a tool for service discovery, monitoring and configuration.
+* [devd](https://github.com/cortesi/devd) - A local webserver for developers
+* [etcd](https://github.com/coreos/etcd) - A highly-available key value store for shared configuration and service discovery.
+* [nsq](http://nsq.io/) - A realtime distributed messaging platform
+* [yakvs](https://github.com/sci4me/yakvs) - A small, networked, in-memory key-value store.
+
+## Text Processing
+
+*Libraries for parsing and manipulating texts.*
+
 
 ## Code Analysis
-
 * [doc](https://godoc.org/robpike.io/cmd/doc) - Go documentation tool that produces an alternative doc format.
 * [dupl](https://github.com/mibk/dupl) - A tool for code clone detection.
 * [errcheck](https://github.com/kisielk/errcheck) - Errcheck is a program for checking for unchecked errors in Go programs.
@@ -42,7 +67,6 @@ Please take a quick gander at the [contribution guidelines](CONTRIBUTE.md) first
 * [gonative](https://github.com/inconshreveable/gonative) - Tool which creates a build of Go that can cross compile to all platforms while still using the Cgo-enabled versions of the stdlib packages.
 * [gox](https://github.com/mitchellh/gox) - A dead simple, no frills Go cross compile tool.
 * [goxc](https://github.com/laher/goxc) - build tool for Go, with a focus on cross-compiling and packaging.
-* [GVM](https://github.com/moovweb/gvm) - GVM provides an interface to manage Go versions.
 * [hk](https://github.com/heroku/hk) - Heroku command-line interface in Go.
 * [kala](https://github.com/ajvb/kala) - Simplistic, modern, and performant job scheduler.
 * [Mora](https://github.com/emicklei/mora) - REST server for accessing MongoDB documents and meta data.
@@ -53,3 +77,16 @@ Please take a quick gander at the [contribution guidelines](CONTRIBUTE.md) first
 * [Vegeta] (https://github.com/tsenart/vegeta) - HTTP load testing tool and library. It's over 9000!
 * [webhook](https://github.com/adnanh/webhook) - Tool which allows user to create HTTP endpoints (hooks) that execute commands on the server
 * [Wide](https://wide.b3log.org/login) - A Web-based IDE for Teams using Golang.
+
+### Other Software
+* [boxed](https://github.com/tejo/boxed) - Dropbox based blog engine
+* [Circuit](https://github.com/gocircuit/circuit) - Circuit is a programmable platform-as-a-service (PaaS) and/or Infrastructure-as-a-Service (IaaS), for management, discovery, synchronization and orchestration of services and hosts comprising cloud applications.
+* [Comcast](https://github.com/tylertreat/Comcast) - Simulate bad network connections
+* [confd](https://github.com/kelseyhightower/confd) - Manage local application configuration files using templates and data from etcd or consul.
+* [Docker](http://www.docker.com/) - An open platform for distributed applications for developers and sysadmins.
+* [fleet](https://github.com/coreos/fleet) - A Distributed init System.
+* [Go Package Store](https://github.com/shurcooL/Go-Package-Store#go-package-store-) - An app that displays updates for the Go packages in your GOPATH.
+* [gocc](https://github.com/goccmack/gocc) - Gocc is a compiler kit for Go written in Go.
+* [Gor](https://github.com/buger/gor) - Http traffic replication tool, for replaying traffic from production to stage/dev environments in real-time.
+* [hugo](http://gohugo.io/) - A Fast and Modern Static Website Engine
+* [Postman](https://github.com/zachlatta/postman) - Command-line utility for batch-sending email.
