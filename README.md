@@ -1,6 +1,8 @@
 # Awesome Go Tools
 A curated list of awesome Go tools. Inspired by [awesome-go](https://github.com/avelino/awesome-go)
 
+The most import is **The go tools must be an command line tool, not lib**
+
 ## Contributing
 Please take a quick gander at the [contribution guidelines](CONTRIBUTE.md) first. Thanks to all contributors
 
