@@ -42,6 +42,7 @@ Please take a quick gander at the [contribution guidelines](CONTRIBUTE.md) first
 * [consul](https://www.consul.io/) - Consul is a tool for service discovery, monitoring and configuration.
 * [devd](https://github.com/cortesi/devd) - A local webserver for developers
 * [etcd](https://github.com/coreos/etcd) - A highly-available key value store for shared configuration and service discovery.
+* [GoAPI](https://github.com/hvuhsg/GoAPI) - A simple API writing framework with auto openapi docs.
 * [nsq](http://nsq.io/) - A realtime distributed messaging platform
 * [yakvs](https://github.com/sci4me/yakvs) - A small, networked, in-memory key-value store.
 
