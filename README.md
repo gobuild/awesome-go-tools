@@ -111,4 +111,5 @@ Please take a quick gander at the [contribution guidelines](CONTRIBUTE.md) first
 * [gocc](https://github.com/goccmack/gocc) - Gocc is a compiler kit for Go written in Go.
 * [Gor](https://github.com/buger/gor) - Http traffic replication tool, for replaying traffic from production to stage/dev environments in real-time.
 * [hugo](http://gohugo.io/) - A Fast and Modern Static Website Engine
+* [OLake](https://github.com/datazip-inc/olake) - Replicate Postgres, MySQL, MongoDB, Oracle, SQL Server, Kafka and S3 into Apache Iceberg with CDC and table maintenance.
 * [Postman](https://github.com/zachlatta/postman) - Command-line utility for batch-sending email.
